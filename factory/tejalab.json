@@ -1,0 +1,9 @@
+{
+	"name": "tejalab",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5f93d801-4f7e-4c30-b057-8f85b82b0cf8",
+		"tenantId": "8239f3c2-95f7-468a-b216-3faf3afda3ba"
+	}
+}

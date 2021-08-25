@@ -1,0 +1,34 @@
+{
+	"name": "until",
+	"properties": {
+		"activities": [
+			{
+				"name": "Until true",
+				"type": "Until",
+				"dependsOn": [],
+				"userProperties": [],
+				"typeProperties": {
+					"expression": {
+						"value": "@bool(true)",
+						"type": "Expression"
+					},
+					"activities": [
+						{
+							"name": "Wait1",
+							"type": "Wait",
+							"dependsOn": [],
+							"userProperties": [],
+							"typeProperties": {
+								"waitTimeInSeconds": 10
+							}
+						}
+					],
+					"timeout": "7.00:00:00"
+				}
+			}
+		],
+		"annotations": [],
+		"lastPublishTime": "2021-08-25T16:46:42Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
